@@ -9,11 +9,13 @@ body{
  flex-direction: column;
  justify-content: center;
  align-items: center;
+ color: white;
+ font-family:sans-serif;
  
 }
  
 
-first-section{
+.first-section{
   background-image: url("Assets/Images/bg.jpg");
   background-size: cover;
   width: 100%;
@@ -23,14 +25,14 @@ first-section{
 }
 
 .netS{
-  /* padding-left: 0%; */
+  padding-left: 0%; 
  background-image: radial-gradient( rgba(37, 31, 31, 0.553),rgba(0, 0, 0, 0.831), rgba(0, 0, 0, 0.804));
  
   width: 100%;
   height: 100vh;
   display: flex;
   flex-direction: column;
-   /* justify-content: center;  */
+   justify-content: center; 
   align-items: center;
   
   
@@ -46,7 +48,7 @@ first-section{
   border-width: 6px;
   border-style: solid;
 
-  border-image: linear-gradient(to bottom, #430404, #890505) 1; /* The '1' is border-image-slice */
+  border-image: linear-gradient(to bottom, #430404, #890505) 1; 
   border-bottom: none;
 
 
@@ -166,6 +168,95 @@ button:hover{
 }
 
 }
+
+ .all-writing-container{
+  position: relative;
+  background-color: aliceblue;
+   top: 15%;
+  width:100%;
+  height:50vh;
+  display: flex;
+  justify-content: center;
+}
+
+.writing-in-the-center{
+  background-color: blue;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 600px;
+  height: 50vh;
+  gap: 20px;
+  font-size: large;
+
+
+}
+.center-bottom-writing{
+  width: 500px;
+  height: 52px;
+  background-color: aqua;
+  display:flex ;
+  justify-content: space-evenly;
+  align-items: center;
+  
+}
+.email-container{
+  width: 58%;
+  height: 90%;
+}
+#email-id{
+  width: 100%;
+  height: 96%;
+  text-align: center;
+  background-color: transparent;
+  
+  border: 1px solid rgba(94, 93, 93, 0.872);
+  border-radius: 5px;
+  
+}
+::placeholder{
+  color: #4a4848;
+  font-weight: 150px;
+  font-size: medium;
+  text-align: start;
+  padding: 6px;
+}
+
+.get-started-btn-container{
+  width: 38%;
+  height: 90%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+.get-started-btn-container button{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 6px;
+
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  background-color: red;
+  color: white;
+  border: 1px solid rgba(94, 93, 93, 0.872);
+  border-radius: 5px;
+  font-weight: bold;
+  font-size: large;
+}
+.fa-chevron-right{
+  width: 10%;
+
+}
+.get-started-btn-container button:hover{
+  background-color: darkred;
+} 
+
+
 
 
 
