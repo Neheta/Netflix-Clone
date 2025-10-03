@@ -12,11 +12,11 @@ body{
  color: white;
  font-family:sans-serif;
  padding: 0;
- gap: 30px;
+ 
  
 }
  .all{
-  background-color: rgb(2, 25, 7);
+ background-color: black;
  display: flex;
  flex-direction: column;
  justify-content: center;
@@ -335,7 +335,7 @@ button:hover{
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: rgb(6, 1, 19);
+  background-color:black;
   margin-bottom: 5px;
   
  
@@ -393,7 +393,7 @@ button:hover{
 /* Section-3 */
 .section-3{
   margin-top: 30px;
-  
+  background-color: black;
   width: 100vw;
   height: auto;
   display: flex;
@@ -412,7 +412,7 @@ button:hover{
   justify-content: center;
 }
 .reasons-box{
-   background: linear-gradient(170deg, #1e1e3f, #211a3a, rgba(28, 1, 42, 0.973));
+   background: linear-gradient(135deg, #022552f4, #081c34,rgba(13, 25, 55, 0.776), rgba(109, 19, 154, 0.609));
   width: 20vw;
   height: 40vh;
   border: 2px solid black;
@@ -469,27 +469,30 @@ button:hover{
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: rgb(6, 1, 19);
+  background-color: black;
   margin-top: 20px;
+  
  
 
 }
+
 .q-container{
   display: flex;
   flex-direction: column;
   height: 70vh;
   width: 100vw;
-  background-color: #09191e;
+
   justify-content: center;
   align-items: center;
+  
 }
 .question{
   width: 90vw;
   height: 10vh;
-  background-color: rgb(87, 97, 97);
+  background-color: rgba(52, 49, 49, 0.555);
   border: 3px solid black;
   gap: 2px;
-  padding: 3px;
+ 
 }
 
 @media(min-width:1928px){
