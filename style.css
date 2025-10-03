@@ -1,7 +1,6 @@
 *{
   margin: 0px;
   padding: 0px;
-  
 }
 body{
  background-color: rgb(25, 2, 2);
@@ -12,7 +11,6 @@ body{
  color: white;
  font-family:sans-serif;
  padding: 0;
- 
  
 }
  .all{
@@ -25,7 +23,6 @@ body{
  align-items: center;
 
  }
-
 .first-section{
   background-image: url("Assets/Images/bg.jpg");
   background-size: cover;
@@ -33,11 +30,8 @@ body{
   height: 100vh;
   display: flex;
   flex-direction: column;
-  
-  
- 
-}
 
+}
 .netS{
   padding-left: 0%; 
  background-image: radial-gradient( rgba(37, 31, 31, 0.553),rgba(0, 0, 0, 0.831), rgba(0, 0, 0, 0.804));
@@ -47,18 +41,8 @@ body{
   display: flex;
   flex-direction: column;
   align-items: center;
-  /* border-width: 6px;
-  border-style: solid; */
-   /* border-image-source: radial-gradient(circle at center, rgb(13, 12, 73), rgb(0, 102, 255), rgb(128, 0, 0)); 
-    border-image-slice: 1; Crucial for gradients to display correctly */
-/* 
-  border-top: none;
-  border-right: none;
-  border-left: none; */
-  
-  
-}
 
+}
 
 .box-1{
   width: 45%;
@@ -68,7 +52,6 @@ body{
 .logo-container{
   width: 100%;
   height: 100%;
-  /* background-color: blueviolet; */
 }
 .logo-container img{
   width:35%;
@@ -77,7 +60,6 @@ body{
 .box-2{
   width: 50%;
   height: 100%;
-  /* background-color: blue; */
   display: flex;
   justify-content: flex-end;
   
@@ -85,7 +67,6 @@ body{
 .btn-container{
    width: 90%;
   height: 100%;
-  /* background-color: rgb(198, 198, 26); */
   display: flex;
   justify-content: flex-end;
 }
@@ -147,9 +128,7 @@ button:hover{
   width:160px;
   
 }
-
 }
-
  .all-writing-container{
   position: relative;
   top: 15%;
@@ -158,7 +137,6 @@ button:hover{
   display: flex;
   justify-content: center;
 }
-
 .writing-in-the-center{
   display: flex;
   flex-direction: column;
@@ -169,7 +147,6 @@ button:hover{
   height: 50vh;
   gap: 20px;
   font-size: large;
-
 
 }
 .center-bottom-writing{
@@ -228,67 +205,51 @@ button:hover{
 }
 .fa-chevron-right{
   width: 10%;
-
 }
 .get-started-btn-container button:hover{
   background-color: darkred;
 } 
-
 @media(max-width:505px) {
-
-
   .first-section{
-  background-image: url("Assets/Images/bg.jpg");
-  background-size: cover;
-  margin: 0;
-  width: 100vw;
-  height: 100vh;
-  display: flex;
-  flex-direction: column;
-}
+      background-image: url("Assets/Images/bg.jpg");
+      background-size: cover;
+      margin: 0;
+      width: 100vw;
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+  }
   .netS{
-  padding-left: 0%; 
- /* background-image: radial-gradient( rgba(37, 31, 31, 0.553),rgba(0, 0, 0, 0.831), rgba(0, 0, 0, 0.804)); */
- 
-  width: 100vw;
-  height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  
-  
-}
+      padding-left: 0%; 
+      width: 100vw;
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    
+    }
+  .writing-in-the-center{
 
-.writing-in-the-center{
-  /* background-color: blue; */
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  width: 90vw;
-  height: 50vh;
-  gap: 20px;
-  font-size: medium;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 90vw;
+    height: 50vh;
+    gap: 20px;
+    font-size: medium;
 
-
-
-}
-
-  
-
-
+  }
   .all-writing-container{
-  position: relative;
+    position: relative;
 
-   top: 5%;
-  width:100vw;
-  height: 90vh;
-  display: flex;
-  justify-content: center;
-  
-}
-
+    top: 5%;
+    width:100vw;
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+  }
   .center-bottom-writing{
   width: 90vw;
   height: 12vh;
@@ -298,33 +259,27 @@ button:hover{
   justify-content: center;
   align-items: center;
   gap: 5px;
-  
-}
-.email-container{
-  width: 90vw;
-  height: 5vh;
-  /* background-color: green; */
-}
-#email-id{
-  width: 94vw;
-  height: 5vh;
-  
-  background-color: transparent;
-  
-  border: 1px solid rgba(94, 93, 93, 0.872);
-  border-radius: 5px;
-  
-}
-
-.get-started-btn-container{
- width: 40vw;
-  height: 5vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-
-}
-
+    
+  }
+  .email-container{
+    width: 90vw;
+    height: 5vh;
+    /* background-color: green; */
+  }
+  #email-id{
+    width: 94vw;
+    height: 5vh;
+    background-color: transparent;
+    border: 1px solid rgba(94, 93, 93, 0.872);
+    border-radius: 5px;
+  }
+  .get-started-btn-container{
+  width: 40vw;
+    height: 5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
 }
 /* Section 2 */
 .section-2{
@@ -337,28 +292,9 @@ button:hover{
   align-items: center;
   background-color:black;
   margin-bottom: 5px;
-  
- 
 
 }
-/* .sec-2-top{
-  width: 100vw;
-  height: 2vh;
-  background-image: linear-gradient(to top, black 90%, rgb(0, 0, 11), rgb(0, 0, 31), rgb(84, 2, 2));
-  margin: 0px;
 
-} */
-/* Attempted a rising sun radial bg */
-/* .inner-big-div{
-  
-  width: 150vw;
-  height: 80vh;
-  background-image: radial-gradient( farthest-side at 50% 50%,  rgb(19, 13, 36)50%,rgba(72, 10, 3, 0.785) , rgba(99, 10, 10, 0.932),rgba(1, 6, 36, 0.894),rgba(0, 0, 0, 0.646),rgba(0, 0, 0, 0.646),rgba(0, 0, 0, 0.646));
-  background-size: cover;
-  opacity:100% ;
-  background-color: rgba(23, 22, 22, 0.503);
-
-} */
 .inner-div-1{
   margin-top: 5px;
   margin-bottom: 5px;
@@ -369,7 +305,6 @@ button:hover{
   width: 100vw;
   gap: 5px;
   justify-content: center;
-
 }
 .t-container{
   height: auto;
@@ -379,7 +314,6 @@ button:hover{
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
-  
 }
 .t-items img{
   width: 170px;
@@ -387,9 +321,7 @@ button:hover{
 }
 .trending{
   width: 80vw;
-
 }
-
 /* Section-3 */
 .section-3{
   margin-top: 30px;
@@ -419,10 +351,10 @@ button:hover{
   padding: 15px;
   border-radius: 10px;
 }
-
-
 @media  (max-width:918px) {
   .reasons-container{
+     margin-left: 3%;
+     margin-right: 3%;
     width: 100vw;
     max-height: 80vh;
     display: flex;
@@ -434,9 +366,7 @@ button:hover{
   .reasons-box{
     width: 90vw;
     height: 10vh;
-   
   }
-  
 }
 @media (max-width:1300px) and (min-width:919px){
   .reasons-container{
@@ -457,9 +387,7 @@ button:hover{
     backdrop-filter: blur(10px);
    
   }
-
 }
-
 /* SECTION 4 */
 .section-4{
 
@@ -472,10 +400,7 @@ button:hover{
   background-color: black;
   margin-top: 20px;
   
- 
-
 }
-
 .q-container{
   display: flex;
   flex-direction: column;
@@ -551,6 +476,48 @@ button:hover{
 
 
 }
+
+/* FOOTERRRRRRRRR */
+.footer{
+  width: 90vw;
+  height: auto;
+  margin-bottom: 20px;
+ 
+}
+.footer a{
+  color: gray;
+
+}
+.all-container{
+  margin-top: 20px;
+  display: flex;
+  justify-content: flex-start;
+  width: 80vw;
+  flex-wrap: wrap;
+
+}
+
+.container{
+  display: flex;
+  flex-direction: column;
+  width: 20vw;
+  height: auto;
+  text-align: left;
+  gap: 10px;
+}
+@media (max-width:500px){
+  .all-container{
+  display: flex;
+  flex-direction: column;
+  }
+  .footer{
+   margin-left: 3%;
+  }
+}
+  
+
+
+
 
 
 
